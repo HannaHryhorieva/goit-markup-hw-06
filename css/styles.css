@@ -479,6 +479,8 @@ li {
   position: absolute;
   top: 50%;
   left: 16px;
+  font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.25px;
   letter-spacing: 0.03em;
@@ -641,14 +643,14 @@ li {
   margin: 0 10px 30px;
   padding: 0;
 }
-.check-label {
+.check-text {
   color: var(--second-color);
   padding-left: 24px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
-.check-label > a {
+.check-text > a {
   color: var(--accent-color);
   text-decoration-skip-ink: none;
 }
