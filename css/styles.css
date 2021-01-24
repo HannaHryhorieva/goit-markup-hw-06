@@ -369,7 +369,7 @@ li {
   padding: 60px 0;
 }
 .logo-adress {
-  margin: 0 70px 0 0;
+  margin: 0;
 }
 .logo-footer {
   color: #ffffff;
@@ -479,7 +479,6 @@ li {
   position: absolute;
   top: 50%;
   left: 16px;
-  font-family: inherit;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25px;
