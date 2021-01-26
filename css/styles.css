@@ -464,6 +464,7 @@ li {
   height: 50px;
   margin: 0 12px 0 0;
   padding-left: 16px;
+  color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25px;
@@ -474,11 +475,6 @@ li {
   border-radius: 4px;
 }
 .email-input:focus {
-  color: #ffffff;
-  font-size: 16px;
-  line-height: 1.25px;
-  letter-spacing: 0.03em;
-  text-align: start;
   background-color: var(--second-background-color);
 }
 .email-input::placeholder {
@@ -662,7 +658,7 @@ li {
   height: 15px;
   background-image: url("../images/check1.svg");
 }
-.check:focus-within .icon-check {
+.checkbox:checked + .icon-check {
   background-image: url("../images/iconcheck.svg");
 }
 .button-data {
